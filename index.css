@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.menu{
+    font-size: 30px;
+background-color: rgb(36, 157, 44);
+position: fixed;
+width: 100%;
+top: 0;
+margin-top: 0px;
+/* overlap aavathe irikkan z-index */
+z-index: 1;
+}
+.links{
+    margin-left: 20px;
+display: inline;
+}
+.menuclass{
+    text-decoration: none;
+    color: black;
+    
+}
+.menuclass:hover{
+    border: 2px black solid ;
+    color: blueviolet;
+    font-size: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#profile{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+h1{
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+#photo{
+background-image: linear-gradient(to bottom right,aqua,lightgreen,pink);
+}
+#about{
+    text-align: left;
+}
